@@ -1,0 +1,50 @@
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.appHeader {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1px 2px 2px #00000033;
+}
+
+.appMenu {
+  border: none;
+}
+.shoppingCardIcon {
+  font-size: 30px;
+  margin-right: 35px;
+  cursor: pointer;
+}
+
+.pageContent {
+  display: flex;
+  flex: 1;
+  overflow-y: auto;
+  margin-top: 2px;
+}
+.appFooter {
+  height: 60px;
+  background-color: black;
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.itemCardName {
+  height: 150px !important;
+  object-fit: scale-down;
+  gap: 20 !important;
+  width: 100% !important;
+}
